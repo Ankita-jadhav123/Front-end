@@ -1,0 +1,34 @@
+.register-container{
+    width:100%;
+    height: 100vh;
+    background:linear-gradient(80deg,blueviolet,orange);
+    display: grid;
+    place-content: center;
+}
+.register-container form{
+    width:350px;
+    padding: 20px 15px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px;
+    flex-direction: center;
+    align-items: start;
+    justify-content: start;
+    gap:20px;
+    
+}
+.register-container form .input-feild{
+    width:100%;
+
+}
+.register-container form .input-feild label{
+    font-size: 15px;
+    color: black;
+    font-weight: 510;
+}
+.register-container form .input-feild input{
+    width:100px;
+
+
+
+}
